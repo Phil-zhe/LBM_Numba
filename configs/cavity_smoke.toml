@@ -1,0 +1,14 @@
+case = "cavity"
+nx = 65
+ny = 65
+re = 100.0
+lid_velocity = 0.05
+precision = "float32"
+max_steps = 1000
+minimum_steps = 500
+check_interval = 100
+diagnostic_interval = 100
+convergence_tolerance = 1.0e-4
+consecutive_converged_checks = 3
+checkpoint_interval = 1000
+

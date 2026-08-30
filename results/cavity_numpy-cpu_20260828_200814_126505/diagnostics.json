@@ -1,0 +1,218 @@
+{
+  "summary": {
+    "case": "cavity",
+    "nx": 65,
+    "ny": 65,
+    "re": 100.0,
+    "lid_velocity": 0.05,
+    "precision": "float32",
+    "max_steps": 1000,
+    "minimum_steps": 500,
+    "check_interval": 100,
+    "diagnostic_interval": 100,
+    "convergence_tolerance": 0.0001,
+    "consecutive_converged_checks": 3,
+    "checkpoint_interval": 1000,
+    "nu": 0.0315,
+    "tau": 0.5945,
+    "omega": 1.682085786375105,
+    "length": 63,
+    "ma_ref": 0.08660254037844385,
+    "backend": "numpy-cpu",
+    "mode": "smoke",
+    "steps": 1000,
+    "converged": false,
+    "termination_reason": "max_steps_reached",
+    "wall_time_seconds": 0.7646608001086861,
+    "final_residual": 0.09839613097524226,
+    "diagnostic_steps": [
+      0,
+      100,
+      200,
+      300,
+      400,
+      500,
+      600,
+      700,
+      800,
+      900,
+      1000
+    ],
+    "rho_deviation_final": 0.030643224716186523,
+    "rho_deviation_peak": 0.030643224716186523,
+    "ma_max_final": 0.08037684150821324,
+    "ma_max_peak": 0.08088332845928367,
+    "mass_drift": 0.00011736687679199465,
+    "density_min": 0.977437436580658,
+    "density_max": 1.0306432247161865,
+    "ghia_u_rmse": 0.08678130615269952,
+    "ghia_v_rmse": 0.078320274511032,
+    "ghia_u_max_error": 0.20509109099604178,
+    "ghia_v_max_error": 0.15790216616813094
+  },
+  "diagnostics": [
+    {
+      "min_rho": 1.0,
+      "max_rho": 1.0,
+      "rho_deviation": 0.0,
+      "max_speed": 0.0,
+      "ma_max": 0.0,
+      "mass": 3969.0,
+      "mass_drift": 0.0,
+      "nonfinite_count": 0,
+      "step": 0
+    },
+    {
+      "min_rho": 0.9752774238586426,
+      "max_rho": 1.0305622816085815,
+      "rho_deviation": 0.030562281608581543,
+      "max_speed": 0.04117680714818007,
+      "ma_max": 0.0713203220741132,
+      "mass": 3969.0522962212563,
+      "mass_drift": 1.3176170636496876e-05,
+      "nonfinite_count": 0,
+      "step": 100
+    },
+    {
+      "min_rho": 0.9799458980560303,
+      "max_rho": 1.0264095067977905,
+      "rho_deviation": 0.026409506797790527,
+      "max_speed": 0.04403487598815586,
+      "ma_max": 0.0762706425164807,
+      "mass": 3969.0966796875,
+      "mass_drift": 2.4358701814058958e-05,
+      "nonfinite_count": 0,
+      "step": 200
+    },
+    {
+      "min_rho": 0.9794315099716187,
+      "max_rho": 1.0273784399032593,
+      "rho_deviation": 0.027378439903259277,
+      "max_speed": 0.04473002656231634,
+      "ma_max": 0.07747467862983734,
+      "mass": 3969.1426726579666,
+      "mass_drift": 3.594675181824484e-05,
+      "nonfinite_count": 0,
+      "step": 300
+    },
+    {
+      "min_rho": 0.979586660861969,
+      "max_rho": 1.0275232791900635,
+      "rho_deviation": 0.027523279190063477,
+      "max_speed": 0.04523352963516819,
+      "ma_max": 0.07834677153378379,
+      "mass": 3969.1902740597725,
+      "mass_drift": 4.7940050333205206e-05,
+      "nonfinite_count": 0,
+      "step": 400
+    },
+    {
+      "min_rho": 0.9776173233985901,
+      "max_rho": 1.0298281908035278,
+      "rho_deviation": 0.029828190803527832,
+      "max_speed": 0.04591146421453039,
+      "ma_max": 0.07952098866944697,
+      "mass": 3969.233713030815,
+      "mass_drift": 5.8884613458081257e-05,
+      "nonfinite_count": 0,
+      "step": 500
+    },
+    {
+      "min_rho": 0.9810059070587158,
+      "max_rho": 1.0265060663223267,
+      "rho_deviation": 0.02650606632232666,
+      "max_speed": 0.04587322873393384,
+      "ma_max": 0.07945476287440192,
+      "mass": 3969.2822320461273,
+      "mass_drift": 7.110910711194743e-05,
+      "nonfinite_count": 0,
+      "step": 600
+    },
+    {
+      "min_rho": 0.977953314781189,
+      "max_rho": 1.0297924280166626,
+      "rho_deviation": 0.029792428016662598,
+      "max_speed": 0.046307920425503045,
+      "ma_max": 0.08020767096982785,
+      "mass": 3969.3263199925423,
+      "mass_drift": 8.221718129056862e-05,
+      "nonfinite_count": 0,
+      "step": 700
+    },
+    {
+      "min_rho": 0.9794613718986511,
+      "max_rho": 1.0283299684524536,
+      "rho_deviation": 0.028329968452453613,
+      "max_speed": 0.04631159083954524,
+      "ma_max": 0.08021402831343374,
+      "mass": 3969.373456597328,
+      "mass_drift": 9.409337297258403e-05,
+      "nonfinite_count": 0,
+      "step": 800
+    },
+    {
+      "min_rho": 0.9803529977798462,
+      "max_rho": 1.0276249647140503,
+      "rho_deviation": 0.027624964714050293,
+      "max_speed": 0.04669801145892035,
+      "ma_max": 0.08088332845928367,
+      "mass": 3969.418887257576,
+      "mass_drift": 0.00010553974743663108,
+      "nonfinite_count": 0,
+      "step": 900
+    },
+    {
+      "min_rho": 0.977437436580658,
+      "max_rho": 1.0306432247161865,
+      "rho_deviation": 0.030643224716186523,
+      "max_speed": 0.04640559108137881,
+      "ma_max": 0.08037684150821324,
+      "mass": 3969.4658291339874,
+      "mass_drift": 0.00011736687679199465,
+      "nonfinite_count": 0,
+      "step": 1000
+    }
+  ],
+  "residual_history": [
+    {
+      "step": 100,
+      "residual": 1.0
+    },
+    {
+      "step": 200,
+      "residual": 0.27411010221704685
+    },
+    {
+      "step": 300,
+      "residual": 0.14196045948472313
+    },
+    {
+      "step": 400,
+      "residual": 0.12140827577304564
+    },
+    {
+      "step": 500,
+      "residual": 0.13747397484092946
+    },
+    {
+      "step": 600,
+      "residual": 0.1302307789055203
+    },
+    {
+      "step": 700,
+      "residual": 0.12208442333968365
+    },
+    {
+      "step": 800,
+      "residual": 0.1265644486858091
+    },
+    {
+      "step": 900,
+      "residual": 0.12180797484267486
+    },
+    {
+      "step": 1000,
+      "residual": 0.09839613097524226
+    }
+  ]
+}

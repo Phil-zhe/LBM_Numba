@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lbm2d-mlir"
+version = "0.1.0"
+description = "D2Q9 LBM solver with NumPy CPU and Numba-CUDA-MLIR GPU backends"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+  "numpy>=1.23.3,<3.0",
+  "matplotlib",
+  "numba-cuda-mlir[cu12]==0.5.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "packaging"]
+benchmark = ["threadpoolctl"]
+
+[project.scripts]
+lbm2d = "lbm2d.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+

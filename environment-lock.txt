@@ -1,0 +1,20 @@
+# Verified lbm_cuda_mlir311 environment, 2026-08-28
+python==3.11.16
+numpy==2.4.6
+numba-cuda-mlir==0.5.0
+cuda-core==1.1.1
+cuda-bindings==12.9.7
+cuda-toolkit==12.9.2.0
+cuda-pathfinder==1.8.0
+nvidia-cuda-cccl-cu12==12.9.27
+nvidia-cuda-runtime-cu12==12.9.79
+nvidia-cuda-nvcc-cu12==12.9.86
+nvidia-cuda-nvrtc-cu12==12.9.86
+nvidia-nvjitlink-cu12==12.9.86
+matplotlib==3.11.1
+pillow==12.3.0
+pytest==9.1.1
+packaging==26.3
+threadpoolctl==3.6.0
+typing-extensions==4.16.0
+

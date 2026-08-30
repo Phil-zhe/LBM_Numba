@@ -1,0 +1,25 @@
+case = "cylinder"
+nx = 801
+ny = 320
+re = 100.0
+inlet_velocity = 0.05
+outlet_density = 1.0
+cylinder_diameter = 40.0
+cylinder_center_x = 200.0
+cylinder_center_y = 160.0
+precision = "float32"
+initial_steps = 80000
+maximum_steps = 120000
+extension_chunk_steps = 20000
+transient_steps = 20000
+analysis_window_steps = 60000
+sample_interval = 5
+flux_sample_interval = 50
+diagnostic_interval = 500
+probe_x_offset_d = 4.0
+probe_y_offset_d = 0.5
+initial_perturbation_amplitude = 1.0e-3
+initial_perturbation_phase = 0.7853981633974483
+periodic_y = true
+checkpoint_interval = 10000
+
